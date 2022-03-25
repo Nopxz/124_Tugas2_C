@@ -40,7 +40,11 @@ namespace InsertDataPABDTugas2
                     + "insert into Produk(Id_Produk, Nama_Produk, Stok) values('P000000004', 'Brownies', '10')"
                     + "insert into Produk(Id_Produk, Nama_Produk, Stok) values('P000000005', 'Crumpet', '40')"
 
-
+                    + "insert into Transaksi(Id_Transaksi, Tanggal_Transaksi, Jumlah_Kue, Total_Pembayaran, Jenis_Pembayaran, Id_Kasir, Id_Customer, Id_Produk) values('T000000001', '06-12-2021', '20','200000','Tunai','K000000001','C000000001','P000000001')"
+                    + "insert into Transaksi(Id_Transaksi, Tanggal_Transaksi, Jumlah_Kue, Total_Pembayaran, Jenis_Pembayaran, Id_Kasir, Id_Customer, Id_Produk) values('T000000002', '07-11-2021', '30','300000','Debit','K000000002','C000000002','P000000002')"
+                    + "insert into Transaksi(Id_Transaksi, Tanggal_Transaksi, Jumlah_Kue, Total_Pembayaran, Jenis_Pembayaran, Id_Kasir, Id_Customer, Id_Produk) values('T000000003', '08-10-2021', '25','250000','Tunai','K000000003','C000000003','P000000003')"
+                    + "insert into Transaksi(Id_Transaksi, Tanggal_Transaksi, Jumlah_Kue, Total_Pembayaran, Jenis_Pembayaran, Id_Kasir, Id_Customer, Id_Produk) values('T000000004', '09-09-2021', '10','100000','Debit','K000000004','C000000004','P000000004')"
+                    + "insert into Transaksi(Id_Transaksi, Tanggal_Transaksi, Jumlah_Kue, Total_Pembayaran, Jenis_Pembayaran, Id_Kasir, Id_Customer, Id_Produk) values('T000000005', '10-08-2021', '40','400000','Tunai','K000000005','C000000005','P000000005')"
                     ,
                     con);
                 cm.ExecuteNonQuery();
