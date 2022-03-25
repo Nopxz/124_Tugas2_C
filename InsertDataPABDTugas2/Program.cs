@@ -19,10 +19,10 @@ namespace InsertDataPABDTugas2
             SqlConnection con = null;
             try
             {
-                con = new SqlConnection("data source =NOP\\MSSQLSERVER01;database=Toko_Kue_Naufal;UserID=sa;Password=kontoru555");
+                con = new SqlConnection("data source = NOP\\MSSQLSERVER01;database = Toko_Kue_Naufal;" + " user ID = sa; Password = kontoru555");
                 con.Open();
 
-                SqlCommand cm = new SqlCommand ("insert into Kasir(Id_Kasir, Nama_Kasir, Jenis_Kelamin) values('K000000001', 'Naufal', 'L')"
+                SqlCommand cm = new SqlCommand ("insert into Kasir (Id_Kasir, Nama_Kasir, Jenis_Kelamin) values('K000000001', 'Naufal', 'L')"
                     + "insert into Kasir(Id_Kasir, Nama_Kasir, Jenis_Kelamin) values('K000000002', 'Gita', 'L')"
                     + "insert into Kasir(Id_Kasir, Nama_Kasir, Jenis_Kelamin) values('K000000003', 'Mahardika', 'L')"
                     + "insert into Kasir(Id_Kasir, Nama_Kasir, Jenis_Kelamin) values('K000000004', 'Rizky', 'L')"
