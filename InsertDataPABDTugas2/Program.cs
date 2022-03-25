@@ -32,7 +32,16 @@ namespace InsertDataPABDTugas2
                     +"insert into Customer(Id_Customer, Nama_Customer, Jenis_Kelamin, No_Telp) values('C000000002', 'Lana', 'L', '0822321243212')"
                     +"insert into Customer(Id_Customer, Nama_Customer, Jenis_Kelamin, No_Telp) values('C000000003', 'Lone', 'L', '0821282923102')"
                     +"insert into Customer(Id_Customer, Nama_Customer, Jenis_Kelamin, No_Telp) values('C000000004', 'Lala', 'L', '0821282932102')"
-                    +"insert into Customer(Id_Customer, Nama_Customer, Jenis_Kelamin, No_Telp) values('C000000005', 'Buna', 'L', '0821282936102')",
+                    +"insert into Customer(Id_Customer, Nama_Customer, Jenis_Kelamin, No_Telp) values('C000000005', 'Buna', 'L', '0821282936102')"
+
+                    + "insert into Produk(Id_Produk, Nama_Produk, Stok) values('P000000001', 'Bolu', '20')"
+                    + "insert into Produk(Id_Produk, Nama_Produk, Stok) values('P000000002', 'Kukus', '30')"
+                    + "insert into Produk(Id_Produk, Nama_Produk, Stok) values('P000000003', 'Gandum', '25')"
+                    + "insert into Produk(Id_Produk, Nama_Produk, Stok) values('P000000004', 'Brownies', '10')"
+                    + "insert into Produk(Id_Produk, Nama_Produk, Stok) values('P000000005', 'Crumpet', '40')"
+
+
+                    ,
                     con);
                 cm.ExecuteNonQuery();
 
