@@ -26,7 +26,14 @@ namespace InsertDataPABDTugas2
                     + "insert into Kasir(Id_Kasir, Nama_Kasir, Jenis_Kelamin) values('K000000002', 'Gita', 'L')"
                     + "insert into Kasir(Id_Kasir, Nama_Kasir, Jenis_Kelamin) values('K000000003', 'Mahardika', 'L')"
                     + "insert into Kasir(Id_Kasir, Nama_Kasir, Jenis_Kelamin) values('K000000004', 'Rizky', 'L')"
-                    + "insert into Kasir(Id_Kasir, Nama_Kasir, Jenis_Kelamin) values('K000000005', 'Alam', 'L')", con);
+                    + "insert into Kasir(Id_Kasir, Nama_Kasir, Jenis_Kelamin) values('K000000005', 'Alam', 'L')"
+
+                    +"insert into Customer(Id_Customer, Nama_Customer, Jenis_Kelamin, No_Telp) values('C000000001', 'Budi', 'L', '0821282932102')"
+                    +"insert into Customer(Id_Customer, Nama_Customer, Jenis_Kelamin, No_Telp) values('C000000002', 'Lana', 'L', '0822321243212')"
+                    +"insert into Customer(Id_Customer, Nama_Customer, Jenis_Kelamin, No_Telp) values('C000000003', 'Lone', 'L', '0821282923102')"
+                    +"insert into Customer(Id_Customer, Nama_Customer, Jenis_Kelamin, No_Telp) values('C000000004', 'Lala', 'L', '0821282932102')"
+                    +"insert into Customer(Id_Customer, Nama_Customer, Jenis_Kelamin, No_Telp) values('C000000005', 'Buna', 'L', '0821282936102')",
+                    con);
                 cm.ExecuteNonQuery();
 
                 Console.WriteLine("Sukses menambahkan data");
